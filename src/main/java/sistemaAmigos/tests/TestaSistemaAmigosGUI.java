@@ -2,12 +2,13 @@ package sistemaAmigos.tests;
 
 import sistemaAmigos.Amigo;
 import sistemaAmigos.SistemaAmigo;
+import sistemaAmigos.exceptions.AmigoJaExisteException;
 
 import javax.swing.JOptionPane;
 import java.util.List;
 
 public class TestaSistemaAmigosGUI {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws AmigoJaExisteException {
         SistemaAmigo SA = new SistemaAmigo();
 
         int quantAmigos = Integer.parseInt(JOptionPane.showInputDialog(null,"Quantos amigos vão participar?"));

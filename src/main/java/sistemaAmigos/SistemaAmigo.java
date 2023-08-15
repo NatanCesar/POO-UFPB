@@ -1,6 +1,7 @@
 package sistemaAmigos;
 
 import sistemaAmigos.exceptions.AmigoInexistenteException;
+import sistemaAmigos.exceptions.AmigoJaExisteException;
 import sistemaAmigos.exceptions.AmigoNaoSorteadoException;
 
 
@@ -16,19 +17,19 @@ public class SistemaAmigo {
 
     Random gerador = new Random();
 
-    public void cadastraAmigo(String nomeAmigo, String emailAmigo){
+    public void cadastraAmigo(String nomeAmigo, String emailAmigo) throws AmigoJaExisteException{
         Amigo am = new Amigo(nomeAmigo,emailAmigo);
         amigos.add(am);
     }
 
-    public Amigo pesquisaAmigo(String emailAmigo){
+    public Amigo pesquisaAmigo(String emailAmigo) throws AmigoInexistenteException{
         for (Amigo m: amigos){
             if (m.getEmail().equals(emailAmigo)){
                 return m;
 
             }
         }
-        return null;
+        throw new AmigoInexistenteException("Amigo não existe no sistema");
     }
 
     public void enviarMensagemParaTodos(String mensagem, String emailRementente, boolean ehAnonima){

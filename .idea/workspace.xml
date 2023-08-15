@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a5eaa4-d0c7-459a-a366-848e56035946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fibonacci/fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/Amigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/MensagemParaAlguem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/MensagemParaTodos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigoMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoInexistenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoJaExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoNaoSorteadoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/NaoFoiPossivelSortearException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/tests/TestaSistemaAmigosGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/Sapato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/SistemaVendaSapatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/expections/ClienteJaExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/expections/SapatoJaExisteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaSapatos/expections/VendaJaExisteExcpetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigosMapTest.java" afterDir="false" />
+    <list default="true" id="00a5eaa4-d0c7-459a-a366-848e56035946" name="Changes" comment="&#10;Atualização para MAVEN">
+      <change afterPath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigoMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigoMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoInexistenteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoInexistenteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/tests/TestaSistemaAmigosGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/tests/TestaSistemaAmigosGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigosMapTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +62,7 @@
       <recent name="sistemaAmigos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SistemaAmigosMapTest">
+  <component name="RunManager" selected="JUnit.SistemaAmigoMapTest">
     <configuration name="SistemaAmigosMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sistemaAmigos.SistemaAmigosMapTest" />
       <module name="atividadesPOO" />
@@ -95,8 +76,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaSistemaAmigos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.TestaSistemaAmigos" />
+    <configuration name="TestaSistemaAmigosGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.tests.TestaSistemaAmigosGUI" />
+      <module name="atividadesPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sistemaAmigos.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in atividadesPOO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atividadesPOO" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SistemaAmigoMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atividadesPOO" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +105,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="sistemaAmigos" />
+      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.SistemaAmigoMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SistemaAmigoMapTest.testPesquisaECadastraAmigo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atividadesPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sistemaAmigos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sistemaAmigos" />
+      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.SistemaAmigoMapTest" />
+      <option name="METHOD_NAME" value="testPesquisaECadastraAmigo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,8 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SistemaAmigoMapTest" />
+        <item itemvalue="JUnit.SistemaAmigoMapTest.testPesquisaECadastraAmigo" />
+        <item itemvalue="Application.TestaSistemaAmigosGUI" />
+        <item itemvalue="JUnit.All in atividadesPOO" />
         <item itemvalue="Application.SistemaAmigosMapTest" />
-        <item itemvalue="Application.TestaSistemaAmigos" />
       </list>
     </recent_temporary>
   </component>
@@ -138,11 +161,23 @@
       <updated>1692113783825</updated>
       <workItem from="1692113785157" duration="112000" />
       <workItem from="1692113931543" duration="1273000" />
-      <workItem from="1692115756281" duration="300000" />
+      <workItem from="1692115756281" duration="8722000" />
     </task>
+    <task id="LOCAL-00001" summary="&#10;Atualização para MAVEN">
+      <created>1692116244329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692116244329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&#10;Atualização para MAVEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Atualização para MAVEN" />
   </component>
 </project>

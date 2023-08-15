@@ -1,37 +1,35 @@
 package sistemaAmigos;
 
 import sistemaAmigos.exceptions.AmigoInexistenteException;
+import sistemaAmigos.exceptions.AmigoJaExisteException;
 import sistemaAmigos.exceptions.AmigoNaoSorteadoException;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
+import java.util.*;
 
 
 public class SistemaAmigoMap {
     private List<Mensagem> mensagens = new ArrayList<>();
-    private Map<String, Amigo> amigos;
-
+    private Map<String, Amigo> amigos = new HashMap<>();
     Random gerador = new Random();
 
 
     //
     // KEY DO MAP: emailAmigo
     //
-    public void cadastraAmigo(String nomeAmigo, String emailAmigo) {
+    public void cadastraAmigo(String nomeAmigo, String emailAmigo) throws AmigoJaExisteException {
+        if (amigos.containsKey(emailAmigo)){
+            throw new AmigoJaExisteException("Amigo ja existe no sistema");
+        }
         Amigo am = new Amigo(nomeAmigo, emailAmigo);
         amigos.put(emailAmigo, am);
     }
 
     public Amigo pesquisaAmigo(String emailAmigo) throws AmigoInexistenteException {
-        if (!amigos.containsKey(emailAmigo)) {
-            throw new AmigoInexistenteException("Amigo não existe no sistema");
-        } else {
+        if (amigos.containsKey(emailAmigo)) {
             return amigos.get(emailAmigo);
-
+        } else {
+            throw new AmigoInexistenteException("Amigo não existe no sistema");
         }
     }
 
