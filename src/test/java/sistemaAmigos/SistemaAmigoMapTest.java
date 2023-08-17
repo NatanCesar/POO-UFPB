@@ -1,16 +1,15 @@
 
 package sistemaAmigos;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import sistemaAmigos.exceptions.AmigoInexistenteException;
+import sistemaAmigos.exceptions.AmigoJaExisteException;
+import sistemaAmigos.exceptions.AmigoNaoSorteadoException;
 
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import sistemaAmigos.exceptions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SistemaAmigoMapTest {
 

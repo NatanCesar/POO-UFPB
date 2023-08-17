@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a5eaa4-d0c7-459a-a366-848e56035946" name="Changes" comment="&#10;Atualização para MAVEN">
-      <change afterPath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigoMapTest.java" afterDir="false" />
+    <list default="true" id="00a5eaa4-d0c7-459a-a366-848e56035946" name="Changes" comment="Att do bug">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaFilmes/CategoriaFilme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaFilmes/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaFilmes/FilmeJaExisteExcpetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaFilmes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaFilmes/SistemaFilmesMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sistemaFilmes/FilmeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sistemaFilmes/SistemaFilmeMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigoMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/SistemaAmigoMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoInexistenteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/exceptions/AmigoInexistenteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaAmigos/tests/TestaSistemaAmigosGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaAmigos/tests/TestaSistemaAmigosGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigosMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigoMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sistemaAmigos/SistemaAmigoMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -62,13 +64,13 @@
       <recent name="sistemaAmigos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SistemaAmigoMapTest">
-    <configuration name="SistemaAmigosMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.SistemaAmigosMapTest" />
+  <component name="RunManager" selected="JUnit.SistemaFilmeMapTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sistemaFilmes.Main" />
       <module name="atividadesPOO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sistemaAmigos.*" />
+          <option name="PATTERN" value="sistemaFilmes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,23 +78,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaSistemaAmigosGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sistemaAmigos.tests.TestaSistemaAmigosGUI" />
+    <configuration name="FilmeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atividadesPOO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sistemaAmigos.tests.*" />
+          <option name="PATTERN" value="sistemaFilmes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in atividadesPOO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="atividadesPOO" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="SistemaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="sistemaFilmes.FilmeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,26 +124,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="SistemaFilmeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atividadesPOO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="atividadesPOO" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sistemaFilmes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sistemaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="sistemaFilmes.SistemaFilmeMapTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SistemaFilmeMapTest" />
+        <item itemvalue="JUnit.FilmeTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SistemaAmigoMapTest" />
         <item itemvalue="JUnit.SistemaAmigoMapTest.testPesquisaECadastraAmigo" />
-        <item itemvalue="Application.TestaSistemaAmigosGUI" />
-        <item itemvalue="JUnit.All in atividadesPOO" />
-        <item itemvalue="Application.SistemaAmigosMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,9 @@
       <updated>1692113783825</updated>
       <workItem from="1692113785157" duration="112000" />
       <workItem from="1692113931543" duration="1273000" />
-      <workItem from="1692115756281" duration="8722000" />
+      <workItem from="1692115756281" duration="8915000" />
+      <workItem from="1692128009697" duration="1331000" />
+      <workItem from="1692270408482" duration="6760000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;Atualização para MAVEN">
       <created>1692116244329</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692116244329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Att do bug">
+      <created>1692125495749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692125495749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;Atualização para MAVEN" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Atualização para MAVEN" />
+    <MESSAGE value="Att do bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Att do bug" />
   </component>
 </project>
